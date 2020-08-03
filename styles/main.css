@@ -1,0 +1,162 @@
+html,
+body {
+  margin                   : 0;
+  padding                  : 0;
+  width                    : 100%;
+  height                   : 100%;
+  font-size                : 100%;
+  -webkit-text-size-adjust : 100%;
+  -moz-text-size-adjust    : 100%;
+  -ms-text-size-adjust     : 100%;
+  overflow                 : auto;
+}
+
+body * {
+  outline : none;
+}
+
+.configurable-application--loading {
+  text-align : center;
+  display    : block;
+  height     : 100%;
+  width      : 100%;
+  overflow   : hidden;
+  background : #fff url(../assets/loader-ie9.gif) no-repeat center center;
+}
+
+#user-thumb-node {
+  height         : 36px;
+  border-radius  : 18px;
+  vertical-align : middle;
+}
+
+.esri-print__container {
+  max-height : unset;
+}
+
+.esri-layer-list__item-actions-menu-item:hover,
+.esri-layer-list__item-actions-menu-item--active,
+.esri-layer-list__item-actions-menu-item--active:hover {
+  color            : #0079c1 !important;
+  background-color : transparent !important;
+}
+
+.drawer-nav {
+  width : 350px;
+}
+
+.view-loading-node {
+  box-shadow : none !important;
+}
+
+.view-loading-node .loader-text {
+  padding-top : 3em !important;
+}
+
+.slider-table td {
+  padding : 0;
+  /*border  : solid 1px red;*/
+}
+
+.directions-node {
+  margin : 0 5px 0 5px;
+}
+
+.direction-node {
+  width          : 20px;
+  vertical-align : middle;
+}
+
+.direction-node:hover {
+  color : #0079c1;
+}
+
+.direction-node:active {
+  color : #d2e9f9;
+}
+
+.direction-label {
+  color : #0079c1;
+}
+
+#main-container {
+  width          : 100%;
+  height         : 100%;
+  display        : flex;
+  flex-direction : column;
+}
+
+#top-container {
+  order       : 0;
+  flex-shrink : 0;
+  flex-grow   : 0;
+}
+
+#center-container {
+  height         : 100%;
+  order          : 1;
+  flex-shrink    : 1;
+  flex-grow      : 1;
+  display        : flex;
+  flex-direction : row;
+}
+
+#photo-panel {
+  width       : 30%;
+  order       : 0;
+  flex-shrink : 0;
+  flex-grow   : 0;
+}
+
+#center-panel {
+  order       : 1;
+  flex-shrink : 1;
+  flex-grow   : 1;
+}
+
+.view-node {
+  width  : 100%;
+  height : 100%;
+}
+
+#photo-list-parent {
+  width          : 100%;
+  height         : 100%;
+  display        : flex;
+  flex-direction : column;
+}
+
+#photo-list-heading {
+  order       : 0;
+  flex-shrink : 0;
+  flex-grow   : 0;
+}
+
+#photos-list {
+  order       : 1;
+  flex-shrink : 1;
+  flex-grow   : 1;
+  overflow-x  : hidden;
+  overflow-y  : auto;
+}
+
+#photos-list:empty {
+  text-align  : center;
+  padding-top : 4em;
+  font-size   : 2em;
+  font-style  : italic;
+  color       : silver;
+}
+
+#photos-list:empty:after {
+  content : "No Photos"
+}
+
+
+.photo-preview-name{
+  padding: 2px 0 2px 0;
+}
+
+.photo-preview {
+  box-shadow : 0 1px 2px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,27 @@
+{
+  "title": "",
+  "appid": "",
+  "group": "",
+  "webmap": "c67d81624de349fa936a0603429ac448",
+  "webscene": "",
+  "portalUrl": "https://hatchmott.maps.arcgis.com",
+  "oauthappid": "LercuoMSZSkogyEa",
+  "proxyUrl": "https://maps.esri.com/proxy/DotNet/proxy.ashx",
+  "units": "dual",
+  "helperServices": {
+    "geometry": {
+      "url": null
+    },
+    "printTask": {
+      "url": null
+    },
+    "elevationSync": {
+      "url": null
+    },
+    "geocode": [
+      {
+        "url": null
+      }
+    ]
+  }
+}
